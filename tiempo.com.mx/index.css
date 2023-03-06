@@ -1,0 +1,156 @@
+.border-right {
+    border: 1px solid #32363E !important;
+}
+
+.oc-item .portfolio-desc {
+    border: 1px solid #32363E !important;
+    border: 1px 0 1px 0 !important;
+    border-right-color: rgb(126, 126, 126) !important;
+    border-left-color: rgb(126, 126, 126) !important;
+    border-bottom-color: rgb(126, 126, 126) !important;
+}
+
+
+
+
+.section-cronos-afondo #page-content article #superior1,
+.section-cronos-afondo #page-content article #superior2,
+.superior1,
+.ejemplo-card-destacado,
+#weekly-gallery,
+.cat-reviews,
+.tiempo-tv,
+.lo-mas-leido {
+    border: 1px solid rgb(126, 126, 126) !important;
+    border-radius: 8px !important;
+}
+
+.cat-business-light article {
+    border-bottom: none !important;
+}
+
+
+/*background*/
+.section-cronos-afondo #page-content article,
+.superior1,
+.header-branding,
+.lo-mas-leido,
+.tiempo-tv,
+#weekly-gallery,
+.ejemplo-card-destacado,
+.header-desktop,
+#header-navigation,
+.header-tiempo,
+.oc-item .portfolio-desc,
+.two-publicidad,
+#page-inner-wrap,
+.ejemplo {
+    background: #32363E !important;
+}
+
+#menu .nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ejemplo {
+    border: 1px solid rgb(126, 126, 126) !important;
+}
+
+.iportfolio {
+    border-right: 6px solid #32363E !important;
+}
+
+.portfolio-overlay {
+    display: none !important;
+}
+
+
+
+.oc-item .iportfolio:hover .portfolio-desc:before {
+    display: none !important;
+}
+
+
+#sidebar #page-content {
+    display: none;
+}
+
+
+/*#weekly-gallery{
+	background: red !important;
+}*/
+
+/*.ejemplo .excerpt {
+	padding-left: 16px;
+}
+
+.excerpt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}*/
+
+article h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.actions {
+    display: none;
+}
+
+article {
+    border-radius: 8px !important;
+}
+
+/*remove blur box*/
+.lo-mas-leido,
+.tiempo-tv,
+section,
+article,
+#superior1,
+.ejemplo,
+.b1,
+#page-content {
+    box-shadow: 0 0 0 0 #0000 !important;
+}
+
+
+body {
+    color: white !important;
+}
+
+h1,
+h2,
+a,
+p {
+    color: white !important;
+}
+
+
+
+#article-post blockquote {
+    background: #32363E !important;
+}
+
+
+
+.publicidad-content,
+.two-publicidad,
+.publicidad-3-columnas,
+.publicidad-content-header,
+.publicidad-top {
+    display: none;
+}
+
+
+.clase2 li{
+	color: white;
+}

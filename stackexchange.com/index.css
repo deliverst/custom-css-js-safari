@@ -1,0 +1,80 @@
+/*background*/
+body,
+#content,
+header,
+.user-info,
+#footer {
+    /*background: #32363E !important;*/
+    background: rgb(17, 13, 40) !important;
+}
+
+#content {
+    border: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+span,
+.js-vote-count,
+.answers-subheader label,
+#question-header + div{
+    color: white !important;
+}
+
+
+
+/*text code color*/
+.hljs-attr,
+.hljs-comment,
+.hljs-function,
+.hljs-keyword,
+.hljs-literal,
+.hljs-name,
+.hljs-number,
+.hljs-params,
+.hljs-property,
+.hljs-string,
+.hljs-tag,
+.hljs-title,
+.hljs-type,
+.hljs-variable,
+.hljs-built_in,
+.hljs-meta,
+.language-xml,
+.s-code-block .hljs-string {
+    color: red !important;
+}
+
+
+/*hidde elements*/
+.js-dismissable-hero,
+.zone-container-main,
+.js-zone-container,
+#left-sidebar,
+#sidebar {
+    display: none;
+}
+
+/*tags*/
+.mb12 li a {
+    background-color: rgb(93, 93, 93) !important;
+}
+
+
+#mainbar,
+.mainbar {
+    width: auto !important;
+    /*float: none !important ;*/
+    /*width: 0 !important ;*/
+    /*margin: 0 !important ;*/
+    /*padding: 0 !important ;*/
+}
+
+.comment-copy code {
+    color: black;
+}

@@ -29,11 +29,18 @@ function elementReady(selector) {
     });
 }
 
-elementReady("#course-list-course-_140476_1 a").then(resolve => {
+elementReady("#course-list-course-_147610_1 a").then(resolve => {
     if (resolve) {
-        console.log("enter");
-        document.querySelector("#course-list-course-_140476_1 a").setAttribute("href", "https://uvmonline.blackboard.com/webapps/blackboard/execute/announcement?method=search&context=mybb&viewChoice=2&course_id=_140476_1&searchSelect=_140476_1")
-        document.querySelector("#course-list-course-_140431_1 a").setAttribute("href", "https://uvmonline.blackboard.com/webapps/blackboard/execute/announcement?method=search&context=mybb&viewChoice=2&course_id=_140431_1&searchSelect=_140431_1")
+
+        var signatures = document.querySelector(".course-org-list").children
+
+        for (var i = 0; i < signatures.length; i++) {
+            if(signatures[i].classList.contains("favorites-group")){
+                const idSignature =  signatures[i].querySelector('[id^="course-link-"]').getAttribute("id").replace("course-link-_","")
+                document.querySelector(`#course-list-course-_${idSignature} a`).setAttribute("href", `https://uvmonline.blackboard.com/webapps/blackboard/execute/announcement?method=search&context=mybb&viewChoice=2&course_id=_${idSignature}&searchSelect=_${idSignature}`)
+            }
+        }
+
     } else {
         console.log("leave");
     }
@@ -42,6 +49,7 @@ elementReady("#course-list-course-_140476_1 a").then(resolve => {
 
 elementReady(".noToggle a").then(resolve => {
     if (resolve) {
+        console.log("enter ok")
         document.querySelector(".noToggle a").setAttribute("href", "/ultra/course");
     } else {
         console.log("leave");

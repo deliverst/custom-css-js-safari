@@ -1,0 +1,393 @@
+main,
+#learn-oe-body,
+.contentBox,
+#filterby,
+.cell,
+#containerdiv,
+.contentPane,
+/*.locationPane,*/
+.course-element-card {
+    /*background: #262626 !important ;*/
+}
+
+
+.course-element-card,
+#containerdiv,
+.portlet {
+    /*mian panel in subject*/
+    border-radius: 15px !important;
+}
+
+
+#anonymous_element_10,
+#anonymous_element_12 {
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.course-element-card {
+    color: white;
+}
+
+/*.gradeTableNew .row {
+    color: white;
+}*/
+
+
+#Embed .wrapper-3hgZT,
+#anonymous_element_4,
+/*acordeon subject title in sidebar*/
+.moduleControlWrapper,
+/*"mas informacion" in subject panel*/
+/*#anonymous_element_11,*/
+.edit_controls,
+/*sidebar in avisos tareas or somthing like that*/
+.announcementInfo,
+/*togle to sort score*/
+.filterBarHorizontal,
+/*anuncios title*/
+#pageTitleText,
+/*button acciones expandir */
+#actionsMenu,
+/*copyright leyend*/
+.newCopyright,
+/*title of subject in main panel in subject */
+#breadcrumb_controls_id,
+.noToggle ol li:nth-child(2),
+#paletteItem\:_3323434_1 {
+    display: none !important;
+}
+
+/*.navigationPane{
+    height: 110% !important;
+}*/
+
+
+#pageTitleDiv {
+    margin: 0 !important;
+}
+
+/*remove background */
+.gradeTableNew .calculatedRow.row {
+    box-shadow: none !important;
+}
+
+.contentBox #containerdiv {
+    padding: 20px 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+}
+
+.gradeTableNew .grades_header {
+    position: static;
+     !important;
+}
+
+#grades_wrapper {
+    margin: 0 !important;
+}
+
+#grades_wrapper div:last-child {
+    border-bottom: none;
+    /*background-color: red !important;*/
+}
+
+.course-columns-header {
+    display: none !important;
+}
+
+aside,
+.term-navigator,
+.course-card-term-name,
+.controls,
+.more-info-toggle,
+.course-type,
+#crumb_2,
+/*title in subject "Pagina Principal"*/
+.actionBarMicro,
+/*barra de arriba en anuncios*/
+.localViewToggle,
+/*enlaces rapidos*/
+#quick_links_wrap
+
+/*options to folder and refresh in subject*/
+    {
+    display: none !important;
+}
+
+
+/*#navigationPane{
+    position: sticky !important ;
+}*/
+
+
+.base #main-content #main-content-inner {
+    padding-left: 0 !important;
+}
+
+
+.course-org-list {
+    padding: 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+
+
+
+.element-card.tile:before,
+.element-card.bar:before {
+    content: none !important;
+}
+
+
+.base-courses .element-card.highlight {
+    /*-webkit-transition: background-color 2s ease-out !important ;*/
+    /*-moz-transition: background-color 2s ease-out !important ;*/
+    /*-o-transition: background-color 2s ease-out !important ;*/
+    transition: box-shadow .15s ease-out !important;
+}
+
+
+.base-courses .element-card.highlight:hover {
+    /*box-shadow: none !important;*/
+    box-shadow: 1px 23px 27px -2px rgba(0, 0, 0, 0.46) !important;
+    -webkit-box-shadow: 1px 23px 27px -2px rgba(0, 0, 0, 0.46) !important;
+    -moz-box-shadow: 1px 23px 27px -2px rgba(0, 0, 0, 0.46) !important;
+}
+
+
+.element-card.bar {
+    margin: : 0px !important;
+}
+
+.base-courses .element-card {
+    min-height: 107px !important;
+    max-width: 330px !important;
+}
+
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.element-details h4 {
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+
+/*button sidebar in subject to remove*/
+#courseMenuPalette_contents {
+    /*background-color: red !important;*/
+}
+
+#puller,
+/*button to hidde sidebar*/
+#menuPuller {
+    background-color: none !important;
+    /*display: none !important;*/
+}
+
+
+/*center title in subject*/
+#breadcrumbs {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center
+}
+
+
+/*#courseMenuPalette_contents:nth-child(2){
+    display: none !important;
+}
+*/
+
+#paletteItem\:_3314299_1,
+/*Calendario*/
+#paletteItem\:_3314293_1,
+/*Servicios*/
+#paletteItem\:_3314291_1
+
+/*Foro de presentacion*/
+    {
+    display: none !important;
+}
+
+
+.shadow {
+    border-top: 0 !important;
+}
+
+
+
+.contentBox {
+    margin: 0 450px !important;
+}
+
+
+/*https://uvmonline.blackboard.com/ultra/course*/
+.announcementList .details,
+#content_listContainer {
+    margin-right: 0 !important;
+}
+
+#announcementList,
+#content_listContainer {
+    margin: -10px 0;
+}
+
+
+
+.liItem:hover,
+.buildList>li:hover {
+    background-color: transparent;
+
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
+}
+
+form #announcementList a,
+form #announcementList span,
+form #announcementList .vtbegenerated {
+    font-size: 16px !important;
+}
+
+
+video {
+    width: auto !important;
+}
+
+.contentPane #editmodeWrapper .contentBox h3 {
+    color: red !important;
+    text-transform: uppercase;
+}
+
+
+#editmodeWrapper a,
+#editmodeWrapper a:link,
+#editmodeWrapper a:visited,
+#editmodeWrapper a:hover,
+#editmodeWrapper a:active {
+    color: blue !important;
+}
+
+
+#content_listContainer img {
+    width: auto;
+    height: 50px;
+}
+
+
+
+.menuWrap-inner{
+    position: sticky;
+    top: 100px;
+}
+
+#breadcrumbs {
+    position: sticky;
+    top: 1px;
+    z-index: 4;
+}
+
+
+
+
+.noToggle .clearfix {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+
+
+.noToggle .root {
+    padding: 0;
+    margin: 0;
+}
+
+
+.noToggle ol li:nth-child(3) {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+div.field{
+    width: 100% !important;
+    text-align: justify;
+}
+
+
+.metaWrapper .clearfix {
+    background-color: red;
+}
+
+#step3,
+#step1 {
+    padding: 0px 20px !important;
+}
+
+#stepcontent1,
+#stepcontent3 {
+    padding: 0 !important;
+}
+
+iframe{
+	width: 100%;
+}
+
+.inlinesvg body{
+	background: white !important;
+}
+
+
+video{
+	width: 100% !important;
+}
+
+
+.metaWrapper{
+	display: flex !important ;
+	justify-content: space-evenly !important ;
+}
+
+
+.field .clearfix:after{
+	content: none;
+}
+	
+.metaSection{
+	border-radius: 5px;
+}
+
+
+.profile-card-open-button{
+	 border-radius: 50%;
+}
+
+.profileCardAvatarThumb img{
+	border:none !important;
+	padding: 0px !important;
+}
+
+#editmodeWrapper .container{
+	border: none !important ;
+}
+
+
+.sideTOC{
+	height: 87vh !important;
+	position:fixed !important;
+	top: 105px !important;
+}
+
+
+.contentListPlain span {
+    color: black !important;
+}

@@ -72,10 +72,10 @@ main,
     box-shadow: none !important;
 }
 
-.contentBox #containerdiv {
+/*.contentBox #containerdiv {
     padding: 20px 0 0 0 !important;
     margin: 0 0 0 0 !important;
-}
+}*/
 
 .gradeTableNew .grades_header {
     position: static;
@@ -193,6 +193,7 @@ header h1 {
 
 /*center title in subject*/
 #breadcrumbs {
+    z-index: 10000;
     font-size: 2rem;
     display: flex;
     justify-content: center
@@ -221,10 +222,10 @@ header h1 {
 }
 
 
-
+/*
 .contentBox {
     margin: 0 450px !important;
-}
+}*/
 
 
 /*https://uvmonline.blackboard.com/ultra/course*/
@@ -233,10 +234,10 @@ header h1 {
     margin-right: 0 !important;
 }
 
-#announcementList,
+/*#announcementList,
 #content_listContainer {
     margin: -10px 0;
-}
+}*/
 
 
 
@@ -339,55 +340,80 @@ div.field{
 }
 
 iframe{
-	width: 100%;
+    width: 100%;
 }
 
 .inlinesvg body{
-	background: white !important;
+    background: white !important;
 }
 
 
 video{
-	width: 100% !important;
+    width: 100% !important;
 }
 
 
 .metaWrapper{
-	display: flex !important ;
-	justify-content: space-evenly !important ;
+    display: flex !important ;
+    justify-content: space-evenly !important ;
 }
 
 
 .field .clearfix:after{
-	content: none;
+    content: none;
 }
-	
+    
 .metaSection{
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 
 .profile-card-open-button{
-	 border-radius: 50%;
+     border-radius: 50%;
 }
 
 .profileCardAvatarThumb img{
-	border:none !important;
-	padding: 0px !important;
+    border:none !important;
+    padding: 0px !important;
 }
 
 #editmodeWrapper .container{
-	border: none !important ;
+    border: none !important ;
 }
 
 
 .sideTOC{
-	height: 87vh !important;
-	position:fixed !important;
-	top: 105px !important;
+    height: 87vh !important;
+    position:fixed !important;
+    top: 105px !important;
 }
 
 
 .contentListPlain span {
     color: black !important;
+}
+
+
+#dataCollectionContainer{
+    position: relative;
+}
+
+
+.submitStepBottom{
+    position: absolute;
+    /*bottom: 0;*/
+    width: 100%;
+}
+
+#subStep20, #subStep22, #bottomSubmitPlaceHolder{
+    display: none;
+}
+
+
+#step3{
+margin-bottom: 100px;
+}
+
+#tocCart{
+    z-index: 1;
 }

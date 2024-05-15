@@ -1,0 +1,1 @@
+document.querySelector(".module-singles.senction-tendencias.hidden-xs h2").textContent = "chupela puto"

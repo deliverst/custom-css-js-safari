@@ -7,6 +7,7 @@ if (location.href === pathDefault || location.href === "https://uvmonline.blackb
     location.assign(pathCourse)
 }
 
+idToChange='_175954_1'
 function elementReady(selector) {
     return new Promise((resolve, reject) => {
         let el = document.querySelector(selector);
@@ -29,7 +30,8 @@ function elementReady(selector) {
     });
 }
 
-elementReady("#course-list-course-_147610_1 a").then(resolve => {
+
+elementReady(`#course-list-course-${idToChange} a`).then(resolve => {
     if (resolve) {
 
         var signatures = document.querySelector(".course-org-list").children
@@ -40,7 +42,8 @@ elementReady("#course-list-course-_147610_1 a").then(resolve => {
                 document.querySelector(`#course-list-course-_${idSignature} a`).setAttribute("href", `https://uvmonline.blackboard.com/webapps/blackboard/execute/announcement?method=search&context=mybb&viewChoice=2&course_id=_${idSignature}&searchSelect=_${idSignature}`)
             }
         }
-
+    document.querySelector('.first').remove()
+    document.querySelector('hr').remove()
     } else {
         console.log("leave");
     }

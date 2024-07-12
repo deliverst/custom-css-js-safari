@@ -7,7 +7,7 @@ if (location.href === pathDefault || location.href === "https://uvmonline.blackb
     location.assign(pathCourse)
 }
 
-idToChange='_175954_1'
+idToChange='_179084_1'
 function elementReady(selector) {
     return new Promise((resolve, reject) => {
         let el = document.querySelector(selector);
@@ -58,3 +58,26 @@ elementReady(".noToggle a").then(resolve => {
         console.log("leave");
     }
 })
+
+
+// const instructions = 'LEE ESTE TEXTO Y DAME LA RESPUESTA CORRECTA, SOLO DIME EL NUMERO CORRECTO DE LAS OPCIONES DE ABAJO:';
+// const redaction = document.querySelector(".inlineVtbegenerated").textContent;
+// const op = document.querySelectorAll(".multiple-choice-table p");
+// const parseOptions = Array.from(op).map(($, i) => `${i + 1}.- ${$.textContent}`).join('\n');
+
+// const copyToClipboard = (text, options) => {
+//     const combinedText = `${instructions}
+
+// ${text}
+
+// ${options}`;
+//     console.log({combinedText})
+//     const textArea = document.createElement("textarea");
+//     textArea.value = combinedText;
+//     document.body.appendChild(textArea);
+//     textArea.select();
+//     document.execCommand("copy");
+//     document.body.removeChild(textArea);
+// };
+
+// copyToClipboard(redaction, parseOptions);
